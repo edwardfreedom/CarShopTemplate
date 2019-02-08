@@ -1,0 +1,50 @@
+#tabs ul > li {
+	list-style-type: none;
+}
+
+#tabs .tabs-nav ul > li {
+	color: #ffffff;
+	font-size: 14px;
+	padding: 20px 23px;
+	display: inline-block;
+	margin-right: 5px;
+	background-color: #f95318;
+	cursor: pointer;
+}
+
+#tabs .tabs-nav ul .active {
+	background-color: #dedede;
+	color: #000000;
+}
+
+#tabs .tabs-content ul > li {
+	display: none;
+	padding: 10px;
+}
+
+#tabs .tabs-content ul > li.active {
+	background-color: #dedede;
+	display: block;
+	height: inherit;
+
+}
+
+.tabs-content {
+	display: inline-block;
+	width: 100%;
+	height: 140px;
+}
+
+#tabs .tabs-content ul {
+	height: inherit;
+}
+
+#tabs .tabs-content ul li {
+	padding-left: 23px;
+	padding-top: 35px;
+	box-sizing: border-box;
+}
+
+
+
+
